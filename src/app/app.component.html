@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="card card-body bg-dark text-white">
+    <h2>Sistema de Controle de Produtos</h2>
+    <p>Gerenciamento de Produtos e Fornecedores </p>
+  </div>
+
+  <br/>
+
+  <div class="row">
+    <div class="col-md-3">
+      Menu Principal
+      <hr/>
+      
+      <a routerLink="cadastro-fornecedor">Cadastro Fornecedor</a>
+      <br/>
+      <a routerLink="consulta-fornecedor">Consultar Fornecedores</a>
+      <br/>
+
+      <a routerLink="cadastro-produto">Cadastro Produto</a>
+      <br/>
+      <a routerLink="consulta-produto">Consultar Produtos</a>
+      <br/>
+
+    </div>
+    <div class="col-md-9">
+      <router-outlet>
+        
+      </router-outlet>
+    </div>
+  </div>
+
+
+
+
+
+</div>
